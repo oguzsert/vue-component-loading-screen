@@ -1,0 +1,12 @@
+.VUE-COMPONENT-LOADING-OVERLAY-PARENT .VUE-COMPONENT-LOADING-OVERLAY-PARENT .VUE-COMPONENT-LOADING-OVERLAY-ELEMENT{
+    display: none !important;
+}
+
+
+.VUE-COMPONENT-LOADING-OVERLAY-ELEMENT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2147483647;
+    position: absolute;
+}
