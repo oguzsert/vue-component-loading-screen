@@ -21,10 +21,10 @@ $ npm run serve
 ```javascript
 import Vue from 'vue'
 import App from './App.vue'
-import VueComponentLoading from "./VueComponentLoadingScreenPlugin";
-import "./vue-component-loading-screen.css";
+import VueComponentLoadingScreenPlugin from "vue-component-loading-screen";
+import "vue-component-loading-screen/vue-component-loading-screen.css";
 
-Vue.use(VueComponentLoading,{
+Vue.use(VueComponentLoadingScreenPlugin,{
   loadingImage:"[YOUR LOADING IMAGE PATH]", //-> Required
   overlayBackgroundColor:"rgba(0,0,0,0.3)" //-> Optional (RGB OR HEX)
 });
